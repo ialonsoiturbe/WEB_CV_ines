@@ -1,2 +1,2 @@
 # WEB_alonsoiturbe.net
-Coding my own web page.
+Creating my own web page as an introduction for my CV.
