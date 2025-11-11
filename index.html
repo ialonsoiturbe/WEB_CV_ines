@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- para que se vean acentos y emojis -->
+    <meta charset="uft-8">
+    <!-- para que se adapte al ancho del dispositivo -->
+    <meta name="viewport" content="width=device-width">
+    <!-- Titulo es muy importante -->
+    <title>Portfolio de Inés Alonso Iturbe</title>
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#542123">
+    
+    <link rel="icon" type="image/jpeg" href="Pictures/green.jpeg">
+    <link rel="alternate" href="http://alonsoiturbe.net/ines" hreflang="es-GB">
+    <link rel="canonical" href="http://alonsoiturbe.net/ines">
+    
+    <meta name="description" content="Physicist and Data Scientist">
+    <meta property="og:title" content="Physicist and Data Scientist">
+    <meta property="og:description" content="Physicist and Data Scientist with experience in the automotive Industry">
+    <meta property="og:image" content="Pictures/red.jpeg">
+
+    <style>
+        body{
+            background-color: rgb(255, 251, 197);
+            text-decoration-color: rgb(252, 231, 206);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfolio de Inés Alonso Iturbe</h1>
+        <nav>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#proyectos">Proyectos</a>
+        </nav>
+    </header>
+
+    <main>
+        <p>Analista de datos, científica de datos, física y programadora</p>
+
+        <!-- Caracteristicas de la imagen -->
+        <img 
+            id="foto de presentación"
+            width="130"
+            height="150"
+            title="Inés Alonso Iturbe"
+            alt="fotografía de Inés Alonso Iturbe en un fondo de hojas verdes"
+            src="Pictures/green.jpeg"
+        >
+
+        <h2 id="experiencia">Experiencia</h2>
+        <ul>
+            <li>Analista de datos - SEGULA(HORSE)</li>
+            <li>Analista de datos - Vall Racing Team</li>
+            <li>Consultora SAP - NTT Data</li>
+            <li>Investigación científica - Universidad de Valladolid</li>
+        </ul>
+
+        <h2 id="proyectos">Proyectos realizados</h2>
+        <ol type="a">
+            <li>Momentos magnéticos del Gadolinio</li>
+            <li>Inventario de pedidos</li>
+            <li>Evolución propiedades con la Temperatura</li>
+            <li>Rayos Ópticos sobre una lente</li>
+        </ol>
+
+        <aside>
+            <header>
+                <h3>Mis tecnologías favoritas:</h3>
+            </header>
+            <ol type="1">
+                <li>Python</li>
+                <li>Jupyter Notebooks</li>
+                <li>Power Bi</li>
+                <li>FastApi</li>
+                <li>VueJs</li>
+            </ol>
+        </aside>
+        <section>
+            <h2>Formulario de contacto</h2>
+            <form method="post" action="/">
+                <fieldset>
+                    <legend>Información personal</legend>
+                    <div>
+                        <label>Nombre:
+                            <input type="text" id="name" name="name" placeholder="Inés Alonso Iturbe" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>Teléfono:
+                            <input type="tel" id="phone" name="phone" placeholder="Inés Alonso Iturbe" required>
+                        </label>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Enviar contacto">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="mailto:ines@alonsoiturbe.net">¡Mándame un correo!</a>
+    </footer>
+</body>
+
+
+</html>
