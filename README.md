@@ -1,2 +1,8 @@
 # WEB_alonsoiturbe.net
-Creating my own web page as an introduction for my CV.
+<p>In this repository you'll find the code for my Portfolio "ines.alonsoiturbe.net". We will use HTML/CSS and Javascript.</p>
+
+<p>The hero image is a Klimt painting named "Flower Garden", one of my all times fav paintings.<br>
+Scrolling down the page you'll see the sections:<br>
+-About me.<br>
+-Tech Abilites.<br>
+-Contact Page.</p>
