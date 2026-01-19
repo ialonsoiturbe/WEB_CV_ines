@@ -1,29 +1,24 @@
-img {
-border-radius: 20;
-animation: bounce 2s infinite;
-margin-top: 20px;
-}
 
 h1 {
   font-size: 40px;
-  font-family: 'Georgia';
-  color: #821928;
+  font-family: 'Onyx';
+  color: #3f0014;
 }
 
 h2, h3 {
-  font-family: 'Helvetica';
-  color: #5C0120;
+  font-family: 'Oswald';
+  color: #dffda2;
 }
 
 body {
-  background: linear-gradient(to right, #DAD4B6, #f0eee9);
-  font-family: 'Baskerville';
-  color: #47000b;
+  background: linear-gradient(to right, #5C0120, #9A3F4A);
+  font-family: 'Georgia';
+  color: #e3baba;
   text-align: center;
 }
 
 a{
-  background-color: white;
+  background-color: rgb(242, 204, 248);
   font-size: 20px;
   border-radius: 10px;
   padding: 10px;
@@ -38,8 +33,36 @@ a{
 
 a:hover{
   color: #5C0120;
-  background-color: lavender;
+  background-color: rgb(243, 182, 255);
   transform: scale(1.05);
+}
+
+.hero{
+  background-image: url('Pictures/header1.jpeg');
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.hero-content {
+  position: relative;
+  font-size: 10px;
+  font-family: 'Georgia';
+  color: #22000b;
+  text-align: center;
+  margin: 0;
+}
+
+.hero-title{
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
 @keyframes bounce { 
