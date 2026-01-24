@@ -1,13 +1,17 @@
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'Onyx';
   color: #3f0014;
 }
 
-h2, h3 {
+h2 {
   font-family: 'Oswald';
   color: #dffda2;
+}
+
+h2:hover{
+  color:#ffae00
 }
 
 body {
@@ -15,6 +19,11 @@ body {
   font-family: 'Georgia';
   color: #e3baba;
   text-align: center;
+}
+
+p:hover{
+  color: #ffffff;
+  font-size: 20px;
 }
 
 a{
@@ -39,7 +48,7 @@ a:hover{
 
 .hero{
   background-image: url('Pictures/header1.jpeg');
-  height: 500px;
+  height: 700px;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -52,7 +61,7 @@ a:hover{
 
 .hero-content {
   position: relative;
-  font-size: 10px;
+  font-size: 15px;
   font-family: 'Georgia';
   color: #22000b;
   text-align: center;
@@ -60,10 +69,11 @@ a:hover{
 }
 
 .hero-title{
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: 600;
   margin-bottom: 0;
 }
+
 
 @keyframes bounce { 
   40%{transform: translateY(-10px); }
