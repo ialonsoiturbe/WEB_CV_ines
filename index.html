@@ -10,7 +10,7 @@
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#542123">
     
-    <link rel="icon" type="image/jpeg" href="Pictures/retrato.jpeg">
+    <link rel="icon" type="image/jpeg" href="Pictures/green.jpeg">
     <link rel="alternate" href="http://alonsoiturbe.net/ines" hreflang="es-GB">
     <link rel="canonical" href="http://alonsoiturbe.net/ines">
     
@@ -23,39 +23,47 @@
 </head>
 <body>
     <section class="hero">
+        <header>
+            <nav class="nav_inicio">
+                <a href="#About-me">About me</a>
+                <a href="#Habilites-am">Habilities</a>
+                <a href="#Contact-me">Contact me</a>
+            </nav>
+        </header>
         <div class="hero-content">
             <h1 class="hero-title">Inés Alonso Iturbe</h1>
-            <p>Tech & Art.</p>
+            <sub>Data Science & Physics.</sub>
         </div>
     </section>
-    <section class="About-me">
+    <section id="About-me" class="About_me">
         <div class="picture_am">
             <img 
             id="foto de presentación"
-            width="130"
-            height="130"
+            width="400em"
+            height="600em"
+            sizes="automotive"
             title="Inés Alonso Iturbe"
             alt="fotografía de Inés Alonso Iturbe en un fondo de hojas verdes"
             src="style/Pictures/collage_aboutme.jpeg"
         > 
         </div>
         
-        <div class="text_am">
-            <h2 class="Aboutme_title" id="Aboutme">INÉS ALONSO ITURBE</h2>
-            <p>
-            Physicist and Data Scientist with 3+ years experience in Tech Industry.<br>
-
+        <div>
+            <h2 class="Aboutme_title" >INÉS ALONSO ITURBE</h2>
+            <p class="text_am">
+            Physicist and Data Scientist with <i>3+ years experience</i> in Tech Industry.<br>
+            <br>
             With a strong background in Maths and Statistics,  she had experience coding in 
             Python, C, C++ and transform and represent data with scientific tools such as Mathematica,
             Matlab and Excel. Her Physics degree forced her to develope research, problem solving and 
             critical thinking skills. <br>
-
-            In her career she had the oportunity to work in 
+            <br>
+            In her career she had the oportunity to work in both Data and Software developement.
             </p>
         </div>
     </section>
     
-    <section class="habilites_am">
+    <section id="Habilites-am" class="Habilites_am">
         <header>
             <h2>Habilities:</h2>
         </header>
@@ -65,7 +73,7 @@
 
     </section>
 
-    <section class="Contact_me">
+    <section id="Contact-me" class="Contact_me">
             <h2>Contact me!</h2>
             <form method="post" action="/">
                 <fieldset>
@@ -86,7 +94,7 @@
         
     </section>
     <footer>
-        <a href="mailto:ines@alonsoiturbe.net">Send me an email!</a>
+        <a class="contact_button" href="mailto:ines@alonsoiturbe.net">Send me an email!</a>
     </footer>
 </body>
 
