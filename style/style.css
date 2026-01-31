@@ -1,19 +1,41 @@
+/*Estilos globales*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --primary: #550712;
+  --primary-dark: #33090F;
+  --primary-hover: #7d8432;
+  --primary-light: #C68565;
+  --background: linear-gradient(to right, #fddbd2, #f6efd8);
+  --text-primary: #22000b;
+  --text-secondary: #9e4734;
+  --text-muted: #653852;
+  --text-light: #fdf5e9;
+  --border: #653852;
+  --card-bg: #192200;
+  --shadow: #481522;
+  --input-bg: #110038;
+}
+
+
 
 /*Titulos*/
 h1 {
   font-size: 50px;
   font-family: 'Onyx';
-  color: #22000b;
+  color: var(--text-primary);
 }
 
 h2 {
   font-size: 50px;
   font-family: 'Impact';
-  color: #22000b;
-}
-
-h2:hover{
-  color:#8C8A45
+  color: var(--text-primary);
 }
 
 sub{
@@ -23,7 +45,7 @@ sub{
 
 /*Estilos generales para el body*/
 body {
-  background: linear-gradient(to right, #fddbd2, #f6efd8);
+  background: var(--background);
   font-family: 'Georgia'; /*Courier*/
   color: #390000;
   text-align: left;
@@ -33,16 +55,31 @@ body {
 .About_me {
   display: flex;
   flex-shrink: 1 1 auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.picture_am {
+object-fit: fill;
+}
+.Aboutme_title{
+  padding-left: 15%;
+  padding-top: 15%;
 }
 
 .text_am{
   text-align: left;
-  margin: 10px;
+  margin: 15%;
+  column-count: 1;
+  gap: 40px;
 }
 
 p:hover{
   font-size: 20px;
 }
+
+/*Habilidades*/
+
 
 /*Contacto*/
 .contact_button{
@@ -53,14 +90,14 @@ p:hover{
   display: block;
   text-align: center;
   margin: 10px;
-  color: #390113;
+  color: var(--primary);
   text-decoration: none;
   box-shadow: 0 4px 8px rgba(253, 214, 124, 0.2);
   transition: transform 0.5s ease;
 }
 
 .contact_button:hover{
-  color: #390113;
+  color: var(--primary);
   background-color: rgb(243, 182, 255);
   transform: scale(1.05);
 }
@@ -68,48 +105,58 @@ p:hover{
 /*Seccion hero*/
 .hero{
   background-image: url('Pictures/header1.jpeg');
-  height: 700px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   padding: 0 20px;
 }
 
 .hero-content {
   position: relative;
-  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 20px;
   font-family: 'Georgia';
-  color: #22000b;
+  color: var(--text-primary);
   text-align: center;
   margin: 0;
 }
 
 .hero-title{
-  font-size: 6rem;
+  font-size: 7rem;
   font-weight: 600;
   margin-bottom: 0;
 }
 
 
 /* Navegación del header a otras páginas */
-nav {
-  justify-content: top;
-  align-items: center;
-  gap: 1rem;
+.nav_inicio {
+  width: 100vw;
+  top: 0%;
+  left: 0%;
   display: flex;
+  padding-top: 1.5%;
+  justify-content: space-evenly;
 }
 
 a{
-  color: #fdf5e9;
+  color: var(--text-light);
   font-family: 'Georgia';
-  text-decoration: underline;
+  text-decoration: none !important;
+  font-size: small;
 }
 
 a:active, :hover {
-color: #390000;
+color: var(--primary-dark);
 }
 
 
