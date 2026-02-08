@@ -80,6 +80,11 @@ p:hover{
 
 /*Habilidades*/
 
+/*Experiencia*/
+ul {
+  padding: 10%;
+  list-style-type:disc ;
+}
 
 /*Contacto*/
 .contact_button{
