@@ -154,10 +154,10 @@ ul {
 }
 
 a{
-  color: var(--text-light);
+  color: var(--text-primary);
   font-family: 'Georgia';
   text-decoration: none !important;
-  font-size: small;
+  font-size: 20px;
 }
 
 a:active, :hover {
