@@ -12,8 +12,7 @@
   --primary-dark: #33090F;
   --primary-hover: #7d8432;
   --primary-light: #C68565;
-  --background: #94570d;
-  --background: linear-gradient(136deg,rgba(148, 87, 13, 1) 0%, rgba(235, 78, 30, 1) 100%);
+  --background: #faf4ee;
   --text-primary: #22000b;
   --text-secondary: #9e4734;
   --text-muted: #653852;
@@ -35,7 +34,7 @@ h1 {
 
 h2 {
   font-size: 50px;
-  font-family: 'Impact';
+  font-family: 'Perpetua';
   color: var(--text-primary);
 }
 
@@ -130,7 +129,7 @@ ul {
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  font-size: 20px;
+  font-size:20px;
   font-family: 'Georgia';
   color: var(--text-primary);
   text-align: center;
@@ -150,7 +149,7 @@ ul {
   top: 0%;
   left: 0%;
   display: flex;
-  padding-top: 1.5%;
+  padding-top: 1%;
   justify-content: space-evenly;
 }
 
